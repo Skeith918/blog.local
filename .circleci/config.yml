@@ -1,0 +1,24 @@
+machine:
+  ruby:
+    version: 2.3.1
+  java:  # see <https://github.com/svenkreiss/html5validator#integration-with-circleci>
+    version: oraclejdk8
+  environment:
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # Faster installation of nokogiri, required by html-proofer
+
+dependencies:
+  post:
+    - bundle exec jekyll --version # print it out
+
+test:
+  override:
+    - bundle exec jekyll doctor
+    - bundle exec jekyll build
+    - grep "css/main.css" _site/index.html # smoke test that something was actually compiled
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./deploy
+

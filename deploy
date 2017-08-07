@@ -1,0 +1,9 @@
+
+#!/bin/bash
+
+echo "Start deploy"
+ssh -tq root@staticweb-01.etalab.gouv.fr "bash -lc 'cd /var/www/blog.local && git pull'"
+ssh -tq root@staticweb-01.etalab.gouv.fr "bash -lc 'cd /var/www/blog.local && bundle exec jekyll build'"
+echo "Deployed Successfully!"
+
+exit 0
