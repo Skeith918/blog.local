@@ -10,9 +10,10 @@ include:
    - _pages
 
 exclude:
+   - Gemfile
    - Gemfile.lock
    - deploy
-
+   - circle.yml
 defaults:
   -
     scope:
