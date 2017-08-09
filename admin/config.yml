@@ -23,8 +23,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "pages"
     label: "Pages"
-    folder: "pages"
-    sort: "date:desc" # Default is title:asc
+    folder: "_pages"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
