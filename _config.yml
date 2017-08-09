@@ -15,10 +15,19 @@ defaults:
     scope:
       path: "pages"  # means "all files"
     values:
-      layout: home
+      layout: page
 
 
-markdown: kramdown
-theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
+
+themeColor: blue # green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+
+permalink: /:year/:month/:title
+markdown: kramdown
+include: [_pages,_posts]
+exclude: [_site,deploy]
+sass:
+  style: compressed
+
