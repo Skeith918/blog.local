@@ -19,6 +19,6 @@ defaults:
 
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
