@@ -6,6 +6,9 @@ github_username:  etalab
 
 
 # Exclude from processing.
+include:
+   - _pages
+
 exclude:
    - Gemfile.lock
    - deploy
@@ -15,7 +18,7 @@ defaults:
     scope:
       path: "pages"  # means "all files"
     values:
-      layout: page
+      layout: home
 
 
 theme: minima

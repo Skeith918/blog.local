@@ -10,7 +10,7 @@ slug: faq
 name: faq
 lang: fr
 authors: Etalab
-template: faq
+layout: default
 summary: Les questions essentielles sur Data.gouv.fr
 
 buttons:

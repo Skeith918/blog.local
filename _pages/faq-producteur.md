@@ -15,7 +15,7 @@ save_as: faq/producteur/index.html
 lang: fr
 authors: Etalab
 summary: Que faut-il savoir avant de publier des données ?
-
+layout: default
 ---
 ## Qui est considéré comme producteur de données ?
 Le producteur d'une base de données, entendu comme la personne qui prend l'initiative
