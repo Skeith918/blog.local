@@ -13,7 +13,7 @@ lang: fr
 parent: faq
 authors: Etalab
 summary: Comment intéragir avec la plateforme ? Avec quelles API ?
-layout: default
+layout: page
 ---
 
 ## Découvrir l’OpenData en tant que développeur

@@ -15,7 +15,7 @@ url: faq/reutilisateur/
 save_as: faq/reutilisateur/index.html
 authors: Etalab
 summary: Que faire avec les données ? Avec quels outils ?
-layout: default
+layout: page
 ---
 
 Cette page contient :

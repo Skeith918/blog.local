@@ -15,7 +15,7 @@ url: faq/citoyen/
 save_as: faq/citoyen/index.html
 authors: Etalab
 summary: Les fondamentaux de l'opendata pour les citoyens
-layout: default
+layout: page
 ---
 
 ## Quelles données sont publiées sur « data.gouv.fr » ?

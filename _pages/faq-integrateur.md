@@ -15,7 +15,7 @@ url: faq/integrateur/
 save_as: faq/integrateur/index.html
 authors: Etalab
 summary: Quelles sont les intégrations tierces rendues possibles ?
-layout: default
+layout: page
 ---
 
 La plateforme « [data.gouv.fr][] » vous offre plusieurs moyens plus ou moins avancés d’intégrer les données disponibles en open data sur vos propres sites :
