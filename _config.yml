@@ -1,4 +1,4 @@
-title: docs.data.gouv.fr
+title: docs.data.gouv.test
 description: Test déploiement du blog docs.data.gouv.fr
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://staticweb01-etalab.gouv.fr" # the base hostname & protocol for your site, e.g. http://example.com
