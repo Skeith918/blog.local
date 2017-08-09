@@ -13,9 +13,9 @@ exclude:
 defaults:
   -
     scope:
-      path: ""  # means "all files"
+      path: "pages"  # means "all files"
     values:
-      layout: default
+      layout: home
 
 
 markdown: kramdown
