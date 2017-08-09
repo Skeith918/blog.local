@@ -29,5 +29,5 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "mardown"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
