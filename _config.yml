@@ -16,5 +16,4 @@ exclude:
    - circle.yml
 
 markdown: kramdown
-
-
+theme: minima
