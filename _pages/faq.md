@@ -10,25 +10,25 @@ slug: faq
 name: faq
 lang: fr
 authors: Etalab
-layout: page
+layout: default
 summary: Les questions essentielles sur Data.gouv.fr
 
 buttons:
   -
     title: Citoyen
-    page: faq-citoyen
+    default: faq-citoyen
   -
     title: Producteur
-    page: faq-producteur
+    default: faq-producteur
   -
     title: Réutilisateur
-    page: faq-reutilisateur
+    default: faq-reutilisateur
   -
     title: Développeur
-    page: faq-developpeur
+    default: faq-developpeur
   -
     title: Intégrateur
-    page: faq-integrateur
+    default: faq-integrateur
 
 ---
 
@@ -55,7 +55,7 @@ on peut par exemple :
 
 - aux producteurs de données qui souhaitent les publier dans des formats ouverts et réutilisables,
 - aux réutilisateurs qui peuvent référencer leurs réalisations,
-  qu’il s’agisse d’un article, d’une visualisation de données ou d’une application,
+  qu’il s’agisse d’un page, d’une visualisation de données ou d’une application,
 - mais aussi à tout citoyen, association ou entreprise, qui peut ainsi découvrir et utiliser des données.
 
 ## Comment faire partie de la communauté « data.gouv.fr » ?

@@ -13,12 +13,12 @@ lang: fr
 parent: faq
 authors: Etalab
 summary: Comment intéragir avec la plateforme ? Avec quelles API ?
-layout: page
+layout: default
 ---
 
 ## Découvrir l’OpenData en tant que développeur
 
-Cette page contient :
+Cette default contient :
 
 - [les informations relatives à l’API](#section-api)
 - [le moissonnage des dépôts de données ouvertes](#section-moissonage)

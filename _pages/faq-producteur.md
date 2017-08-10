@@ -15,7 +15,7 @@ save_as: faq/producteur/index.html
 lang: fr
 authors: Etalab
 summary: Que faut-il savoir avant de publier des données ?
-layout: page
+layout: default
 ---
 ## Qui est considéré comme producteur de données ?
 Le producteur d'une base de données, entendu comme la personne qui prend l'initiative
@@ -80,7 +80,7 @@ A vous maintenant de nous dire quels sont selon vous les jeux de données publiq
 qui devront obtenir ce label en priorité !
 
 ## Quels sont les outils de mesure mis à disposition ?
-Du côté de l’engagement, le tableau de bord producteur (exemple) mesure l’activité en terme de pages vues
+Du côté de l’engagement, le tableau de bord producteur (exemple) mesure l’activité en terme de defaults vues
 et de réutilisations. Le nombre de discussions ouvertes et le nombre de réponses y seront associés,
 ainsi que des éléments de comparaison permettant de se situer vis à vis des autres producteurs.
 L’engagement de la communauté n’est pas une fin en soi, mais une mesure indirecte de son activité.
@@ -192,7 +192,7 @@ Préciser ici, de manière optionnelle, l'adresse mail du producteur,
 par exemple *contact@agriculture.fr*,
 si elle est différente de celle de l'utilisateur qui publie.
 Lorsque vous publiez un jeu de données au nom d'une organisation,
-tous les membres déclarés seront automatiquement notifiés d'éventuelles réutilisations sur la page
+tous les membres déclarés seront automatiquement notifiés d'éventuelles réutilisations sur la default
 du jeu de données (par exemple, la publication d'une visualisation ou d'un commentaire).
 
 ### Thématique (groupes)

@@ -15,10 +15,10 @@ url: faq/reutilisateur/
 save_as: faq/reutilisateur/index.html
 authors: Etalab
 summary: Que faire avec les données ? Avec quels outils ?
-layout: page
+layout: default
 ---
 
-Cette page contient :
+Cette default contient :
 
 - [la transformation des données](#transform)
 - [les outils pour les datavisualisations](#dataviz)
@@ -87,7 +87,7 @@ ou encore jointe à d'autres données (par exemple en divisant le tonnage de dé
 avant de pouvoir la traiter, notamment au travers d'un [outillage pour les datavisualisations](#dataviz).
 Parfois, elle doit être extraite de documents fermés, et nécessite par exemple
 d'[extraire des données PDF](http://www.open-contracting.org/exploring_senegal_public_procurements_how_we_turned_pdf_files_into_browsable_data)
-ou d'[extraire des données tabulaires à partir de pages Web](http://tools.daemonservices.com/html_to_csv/).
+ou d'[extraire des données tabulaires à partir de defaults Web](http://tools.daemonservices.com/html_to_csv/).
 
 Une fois dans un format tabulaire (tableur, fichier texte, etc.) ou dans un format structuré (XML, JSON, RDF, ..),
 [OpenRefine][] est un outil gratuit qui vous permettra de réaliser des transformations complexes
@@ -292,7 +292,7 @@ Dans le menu en bas à gauche, sélectionner la "main" permet d'ajouter des labe
 en mode Rollover et au clic.
 Une fois votre travail terminé, le sauvegarder (attention à la taille du fichier)
 et l'exporter vers votre compte MapBox pour la diffuser,
-comme [cet exemple](https://a.tiles.mapbox.com/v3/ppezziardi.z982gldi/page.html?secure=1#2/0/0).
+comme [cet exemple](https://a.tiles.mapbox.com/v3/ppezziardi.z982gldi/default.html?secure=1#2/0/0).
 
 ### Des cartes affichant des points, des zones
 
@@ -396,7 +396,7 @@ n'oubliez pas de la rendre publique en cliquant sur "Sharing Settings" dans le j
 L'outil RAW par Densitydesign permet de copier/coller très simplement des données issues d'un tableur,
 et de sélectionner son type de graphique.
 
-Le resultat peut être intégré ensuite à une page Web, par copier/coller.
+Le resultat peut être intégré ensuite à une default Web, par copier/coller.
 
 <span id="opendatacamps"></span>
 ## Qu'est-ce qu'un Open Data Camps ?
@@ -417,7 +417,7 @@ Si vous possédez un ordinateur portable, n’oubliez pas de venir avec !
 - Notre **BUT** :
   - produire ou référencer de nouveaux jeux de données
   - améliorer un jeu de données existant : fusionner des fichiers, enrichir, nettoyer, géocoder, etc.
-  - produire et référencer une réutilisation : un site web, un article de blog, une datavisualisation,
+  - produire et référencer une réutilisation : un site web, un page de blog, une datavisualisation,
     un mini-site Web, une application mobile qui prouve son utilité ..
 - Chacun peut proposer une **Formation** (démonstration d'un outil, ..)
   ou un **Atelier** (sourcer des données, fabriquer un nouveau jeu de données,
