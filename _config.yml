@@ -14,15 +14,7 @@ exclude:
    - Gemfile.lock
    - deploy
    - circle.yml
-defaults:
-  -
-    scope:
-      path: "pages"  # means "all files"
-    values:
-      layout: home
 
-
-theme: minima
 markdown: kramdown
 
 
